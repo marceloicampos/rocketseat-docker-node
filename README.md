@@ -15,7 +15,7 @@
 
 #### after build use docker run
 
-```docker run -p 3000:3000 -d marceloic/dockernodejs```
+```docker run -p 3000:3000 --name="dockernodejs" -d marceloic/dockernodejs```
 
 #### open browser on 
 http://localhost:3000/
